@@ -5,9 +5,9 @@ using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 
-namespace AnalysisLog
+namespace DotNet.Utilities
 {
-    public class logEventHelper
+    public class WindowsLogHelper
     {
         /// <summary>  
         /// 记录windows日志  
