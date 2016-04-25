@@ -4,7 +4,7 @@ using System.IO;
 namespace DotNet.Utilities
 {
     /// <summary>
-    /// CSV文件转换类
+    /// CSV文件转换类  
     /// </summary>
     public static class CsvHelper
     {
