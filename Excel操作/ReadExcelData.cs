@@ -11,7 +11,7 @@ namespace DotNet.Utilities.Excel
     {
         public void ReadExcelData() { }
 
-        private void InputExcel(string pPath)
+        private void ReadExcel(string pPath)
         {
             //List<DTO_Admin_Account_Info> DeleteList = DAL_Admin_Account_Info.DeleteAllList();
             string conn = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + pPath + ";Extended Properties=Excel 12.0;";
