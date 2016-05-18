@@ -51,14 +51,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ADO.NET操作\CommandInfo.cs" />
+    <Compile Include="ADO.NET操作\DbHelperSQL.cs" />
     <Compile Include="Chart图形\Assistant.cs" />
     <Compile Include="BindDataControl.cs" />
     <Compile Include="Chart图形\OWCChart11.cs" />
+    <Compile Include="Excel操作\ReadExcelData.cs" />
     <Compile Include="SEO优化\SEOHelper.cs" />
     <Compile Include="Word操作\WordOperate.cs" />
-    <Compile Include="日志操作\Loger.cs" />
+    <Compile Include="日历\GetWeekends.cs" />
+    <Compile Include="日志操作和分析\Loger.cs" />
     <Compile Include="助记码\GetZJM.cs" />
     <Compile Include="数制数据类型编码转换\ConvertHelper.cs" />
+    <Compile Include="日志操作和分析\WindowsLogHelper.cs" />
     <Compile Include="缓存操作\CacheHelper.cs" />
     <Compile Include="缓存操作\CookieHelper.cs" />
     <Compile Include="缓存操作\SessionHelper.cs" />
